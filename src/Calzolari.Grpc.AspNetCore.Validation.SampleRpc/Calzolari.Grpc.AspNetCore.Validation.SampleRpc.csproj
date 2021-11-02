@@ -9,11 +9,8 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Grpc.AspNetCore" Version="2.39.0" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\Calzolari.Grpc.AspNetCore.Validation\Calzolari.Grpc.AspNetCore.Validation.csproj" />
+        <PackageReference Include="Calzolari.Grpc.AspNetCore.Validation" Version="5.4.0" />
+        <PackageReference Include="Grpc.AspNetCore" Version="2.40.0" />
     </ItemGroup>
 
 </Project>
